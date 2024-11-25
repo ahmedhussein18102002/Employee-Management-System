@@ -82,12 +82,5 @@ id,name,position,salary,email
 
 ---
 
-## Future Enhancements
-- Add GUI for better user interaction.
-- Implement user authentication for added security.
-- Extend features like exporting data to different file formats (e.g., Excel).
-
----
-
 ## License
 This project is licensed under the MIT License.
