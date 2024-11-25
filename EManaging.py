@@ -73,7 +73,7 @@ class EmpManage():
         id = input('Enter employee id to delete : ')
         action = input('Are u sure? 1.yes  2.No _> ')
         if int(action) == 1:
-            del utils.employees_list[id]
+            utils.employees_list.pop(str(id))
             print('employee data deleted successfully!')
             handler.store_in_csv(utils.employees_list)
      
